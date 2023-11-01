@@ -1,0 +1,155 @@
+.containerr {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url("/src/assets/images04.png");
+  background-size: cover; /* Optional: Adjust the size of the background image */
+  background-position: center;
+  margin-top: 40px;
+}
+.firstreview {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 130px;
+  flex-wrap: wrap;
+}
+.lastreview {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+.review1 {
+  height: 250px;
+  width: 350px;
+  background-color: #ffffff;
+  padding: 50px;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+.review1:hover {
+  background-color: #f0f0f0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.review2 {
+  height: 300px;
+  width: 350px;
+  background-color: #ffffff;
+  padding: 50px;
+  color: #606990;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+.review2:hover {
+  background-color: #f0f0f0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.review3 {
+  height: 300px;
+  width: 350px;
+  background-color: #ffffff;
+  padding: 50px;
+  color: #606990;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+.review3:hover {
+  background-color: #f0f0f0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.review4 {
+  height: 300px;
+  width: 350px;
+  background-color: #ffffff;
+  padding: 50px;
+  color: #606990;
+  border-radius: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+.review4:hover {
+  background-color: #f0f0f0;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.rp1 {
+  color: #606990;
+  font-size: 22px;
+}
+.rp2 {
+  color: #343f52;
+  font-size: 23px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+.priority h1 {
+  color: #343f52;
+  font-size: 60px;
+  line-height: 1.3;
+}
+.priority p {
+  color: #627594;
+  font-size: 25px;
+  line-height: 1.3;
+  margin-top: 20px;
+}
+.priority button {
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: #3f78e0;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  width: 20rem;
+  height: 5.9rem;
+  transition: transform 0.3s, background-color 0.3s;
+  margin-top: 20px;
+}
+.priority button:hover {
+  background-color: #262626;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .priority h1 {
+    margin-top: 50px;
+    font-size: 30px;
+  }
+  .priority p {
+    font-size: 15px;
+  }
+  .rp1 {
+    font-size: 18px;
+  }
+  .rp2 {
+    font-size: 18px;
+  }
+  .priority button {
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 5rem;
+  }
+}

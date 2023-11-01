@@ -1,0 +1,16 @@
+.conatinfb {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 2px solid #e6ebf7;
+  flex-wrap: wrap;
+}
+.rights p {
+  font-size: 20px;
+  color: #667098;
+}
+@media (max-width: 600px) {
+  .rights p {
+    font-size: 15px;
+  }
+}

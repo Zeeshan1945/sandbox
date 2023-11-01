@@ -1,0 +1,34 @@
+.containertext {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+.mainheading {
+  color: #aab0bc;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.smallheadinds {
+  display: flex;
+  justify-content: center;
+  color: #483f54;
+}
+@media (max-width: 600px) {
+  .agencyp {
+    width: 380px;
+  }
+  .smallheadinds {
+    margin-top: 20px;
+  }
+}
+@media (min-width: 375px) {
+  .agencyp {
+    width: 360px;
+  }
+  .smallheadinds {
+    margin-top: 20px;
+  }
+}

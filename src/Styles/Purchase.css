@@ -1,0 +1,51 @@
+.parent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+.c1 {
+  margin-top: 20px;
+  color: #aab0bc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* Assuming a parent container for your button */
+.button-container {
+  display: flex;
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  padding: 10px;
+}
+
+.PN {
+  margin-top: 10px;
+  border-radius: 15px;
+  background-color: #3f78e0;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  width: 25rem;
+  height: 7rem;
+  transition: transform 0.3s, background-color 0.3s;
+  padding: 10px;
+}
+
+.PN:hover {
+  background-color: #262626;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .PN {
+    font-size: 1.3rem;
+    height: 4rem;
+    width: 18rem;
+    padding: 10px;
+  }
+}

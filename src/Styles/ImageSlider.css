@@ -1,0 +1,32 @@
+#item img {
+  border-radius: 2rem;
+  pointer-events: none;
+}
+#inner-carousel {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+#carousel {
+  margin-top: 40px;
+  cursor: grab;
+  overflow: hidden;
+}
+#Slider {
+  margin-top: 80px;
+}
+#slheading {
+  margin-top: 250px;
+  display: flex;
+  font-size: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  color: #343f52;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  #slheading {
+    font-size: 21px;
+    padding: 10px;
+  }
+}

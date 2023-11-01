@@ -1,0 +1,83 @@
+#containertypes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  cursor: pointer;
+  flex-wrap: wrap;
+  margin-top: 70px;
+  padding: 2rem 12rem;
+  margin-left: 50px;
+}
+.t1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.t2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.t3 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.t4 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.t5 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.t6 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.t7 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.t8 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.t9 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.t10 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.copmpic {
+  height: 70px;
+}
+.comtext {
+  margin-top: 15px;
+  color: #343f52;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media (max-width: 600px) {
+  .comtext {
+    font-size: 15px;
+  }
+  #containertypes {
+    margin-left: 10px;
+  }
+  .copmpic {
+    height: 50px;
+  }
+}

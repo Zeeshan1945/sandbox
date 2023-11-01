@@ -1,0 +1,65 @@
+.unique {
+  display: flex;
+  align-items: center;
+  background-image: url("/src/assets/images04.png");
+  background-size: cover; /* Optional: Adjust the size of the background image */
+  background-position: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-top: 50px;
+}
+.unh {
+  color: #343f52;
+  font-size: 60px;
+  line-height: 1.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.3;
+  text-align: center;
+  margin-top: 20px;
+}
+.unp {
+  color: #627594;
+  font-size: 25px;
+  line-height: 1.3;
+  margin-top: 20px;
+  line-height: 1.3;
+  text-align: center;
+  margin-top: 40px;
+}
+.unb {
+  border-radius: 15px;
+  background-color: #3f78e0;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  font-weight: 700;
+  width: 20rem;
+  height: 5.9rem;
+  transition: transform 0.3s, background-color 0.3s;
+  margin-top: 30px;
+}
+.unb:hover {
+  background-color: #262626;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.unpic {
+  margin-top: 90px;
+}
+@media (max-width: 600px) {
+  .unh {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .unp {
+    font-size: 15px;
+  }
+  .unb {
+    font-size: 1.5rem;
+    width: 15rem;
+    height: 5rem;
+  }
+}

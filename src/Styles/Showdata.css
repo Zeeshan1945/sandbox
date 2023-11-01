@@ -1,0 +1,44 @@
+.datacontainer {
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+.datacontainer2 {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
+  padding: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  justify-content: center;
+}
+.datacontainer2 h1 {
+  font-size: 55px;
+  color: #3f78e0;
+}
+.datacontainer2 p {
+  font-size: 20px;
+  color: #60697b;
+}
+#data3 {
+  margin-left: 15px;
+}
+#mainheading {
+  font-size: 50px;
+  color: #343f52;
+  text-align: center;
+  cursor: pointer;
+}
+@media (max-width: 600px) {
+  .datacontainer2 h1 {
+    font-size: 30px;
+  }
+  #mainheading {
+    font-size: 25px;
+    padding: 10px;
+  }
+}

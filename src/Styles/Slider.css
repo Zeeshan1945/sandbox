@@ -1,0 +1,11 @@
+.image-set {
+  display: flex;
+  gap: 30px;
+  margin-top: 200px;
+}
+.image-set img {
+  max-width: 600px; /* Decrease the maximum width for your images */
+  max-height: 600px; /* Decrease the maximum height for your images */
+  border-radius: 15%; /* Make the images round */
+  cursor: pointer;
+}
